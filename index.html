@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshan John - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo animate-on-scroll">Joshan John</h1>
+
+            <ul>
+                <li><a href="#about" class="animate-on-scroll">About</a></li>
+                <li><a href="#projects" class="animate-on-scroll">Projects</a></li>
+                <li><a href="#skills" class="animate-on-scroll">Skills</a></li>
+                <li><a href="#contact" class="animate-on-scroll">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger" aria-label="Mobile Menu" aria-expanded="false">
+                <span class="hamburger__box">
+                    <span class="hamburger__inner"></span>
+                </span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-canvas">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="hero-pre-title animate-on-scroll">Full-Stack Developer</h4>
+                    <h1 class="hero-title animate-on-scroll">
+                        <span class="gradient-text">Turning Ideas</span><br>
+                        Into Digital Reality
+                    </h1>
+                    <p class="hero-subtitle animate-on-scroll">
+                        Building immersive web experiences with modern technologies<br>
+                        and user-centric design principles
+                    </p>
+                    <div class="cta-group animate-on-scroll">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            View Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i>
+                            Let's Talk
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-social animate-on-scroll">
+                    <a href="https://github.com/joshanjohn" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshanjohn2003/" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mr_._joshan_/" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="images/hero.JPG" alt="Profile Picture" class="profile-img">
+                    <div class="decorative-shape"></div>
+                </div>
+                <div class="about-text">
+                    <h1 class="animate-on-scroll">About Me</h1>
+                    <div class="accent-line animate-on-scroll"></div>
+                    <p class="intro-text animate-on-scroll">
+                        👋 Hi, I'm Joshan John - a passionate full-stack developer with 5+ years of experience crafting
+                        digital experiences.
+                    </p>
+                    <p class="description animate-on-scroll">
+                        Specializing in modern web development, I create responsive, user-friendly applications using
+                        cutting-edge technologies. My expertise spans from front-end aesthetics to robust back-end
+                        solutions.
+                    </p>
+                    <div class="highlight-boxes">
+                        <div class="highlight animate-on-scroll">
+                            <i class="fas fa-code"></i>
+                            <h3>10+ Projects</h3>
+                            <p>Delivered successful solutions</p>
+                        </div>
+                        <div class="highlight animate-on-scroll">
+                            <i class="fas fa-certificate"></i>
+                            <h3>5 Certifications</h3>
+                            <p>In modern web technologies, mobile developement and more </p>
+                        </div>
+                    </div>
+                    <div class="tech-stack animate-on-scroll">
+                        <h4>Core Technologies:</h4>
+                        <div class="stack-icons">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fab fa-threads"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="animate-on-scroll">Projects</h1>
+            <div class="project-grid" id="project-container">
+                <!-- Projects loaded dynamically from projects.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="animate-on-scroll">Skills</h1>
+            <div class="skills-grid">
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/github.png" alt="github">
+                    <p>GitHub</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/flutter.png" alt="Flutter">
+                    <p>Flutter</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/java.png" alt="Java">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/node.png" alt="Node.js">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/dart.png" alt="dart">
+                    <p>Dart</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/php.png" alt="php">
+                    <p>PhP</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/digital-ocean.png" alt="Digital Ocean">
+                    <p>Dart</p>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="images/skills/chatgpt.png" alt="chatgpt">
+                    <p>AI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content animate-on-scroll">
+                <!-- Contact Info Column -->
+                <div class="contact-info">
+                    <div class="info-wrapper">
+                        <h1>Let's Connect</h1>
+                        <div class="accent-line"></div>
+                        <p class="contact-description">Have a project in mind or just want to say hello?<br> I'll do my
+                            best to respond within 24 hours.</p>
+
+                        <div class="contact-methods">
+                            <!-- Method Cards -->
+                            <div class="method-card">
+                                <i class="fas fa-envelope-open-text"></i>
+                                <div class="method-text">
+                                    <h3>Email Me</h3>
+                                    <a href="mailto:joshanjohn2003@gmail.com">joshanjohn2003@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="method-card">
+                                <i class="fas fa-phone-alt"></i>
+                                <div class="method-text">
+                                    <h3>Call Me</h3>
+                                    <a href="tel:+353 899856434">+353 899856434</a>
+                                </div>
+                            </div>
+
+                            <div class="method-card">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="method-text">
+                                    <h3>Location</h3>
+                                    <p>Dublin, Ireland</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Column -->
+                <form id="contact-form" class="contact-form" action="mailto:joshanjohn2003@gmail.com" method="POST"
+                    enctype="text/plain">
+                    <div class="form-header">
+                        <h2>Send a Message</h2>
+                        <p>Fill out the form below and I'll get back to you promptly</p>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="Name" required>
+                        <label for="name">Your Name</label>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="Email" required>
+                        <label for="email">Your Email</label>
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="Message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="underline"></div>
+                    </div>
+
+                    <button type="submit" class="btn contact-submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+
+                    <!-- <div class="form-success">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully!</p>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="animate-on-scroll">&copy; 2025 Joshan John. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/joshanjohn" class="animate-on-scroll"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/mariya.john.1884787/" class="animate-on-scroll"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/joshanjohn2003/" class="animate-on-scroll"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mr_._joshan_/" class="animate-on-scroll"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="projects-loader.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
